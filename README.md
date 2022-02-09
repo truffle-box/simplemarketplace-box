@@ -33,7 +33,7 @@ Right-clicking on a contract, such as `SimpleMarketplace.sol` should bring up th
 
 ![select-box](./assets/build-deploy.png)
 
-## Make an offer
+## Make an offer 💰
 
 From the terminal run the following script:
 
@@ -41,12 +41,26 @@ From the terminal run the following script:
 truffle exec scripts/offer.js
 ```
 
-## Debug
+## Debug 🐞
 
 From the command palette, select "Truffle: Debug Transaction" and select the most recent transaction (top of the list). 
 
 ![select-box](./assets/debug-txn.png)
 
-## Deploy to a Testnet
+## Deploy to a Testnet ✨
 
-Coming shortly ✨
+To deploy via Truffle Dashboard, ensure the service is running with the following:
+
+```
+truffle dashboard
+```
+
+You'll now be able to view the Dashboard UI at the following (default): http://localhost:24012/
+
+To initiate the deployment, select "dashboard" from the deployment list.
+
+![select-box](./assets/dashboard-menu.png)
+
+This will trigger the deployment through the dashboard and you'll be able to sign the deployment txns with Metamask 🥳
+
+![select-box](./assets/dashboard-request.png)
