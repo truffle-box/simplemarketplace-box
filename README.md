@@ -1,8 +1,8 @@
-# Simple Marketplace
+# Simple Marketplace 🛍
 
 This box showcases the functionality of the Trufflesuite for VSCode Extension.
 
-> Note that the following steps assume you have the extension install.
+> Note that the following steps assume you have the extension installed.
 
 ## Prerequisites
 
